@@ -1,5 +1,6 @@
 seedjobs = [
-    [ name: 'testing1', external: ['testing1/folders/*.groovy', 'testing1/jobs/*.groovy'] ],
+    [ name: 'testing1', external: ['testing1/jobs/*.groovy'] ]
+    //[ name: 'testing1', external: ['testing1/folders/*.groovy', 'testing1/jobs/*.groovy'] ],
 ]
 
 seedjobs.each { seedjob ->
